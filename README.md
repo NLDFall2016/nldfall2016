@@ -19,7 +19,11 @@ If you have questions, Rachael (r.steiner@uconn.edu) should be able to help
 The most intuitive structure would probably be for everyone to make their own
   repository within the Organization. That way, you can keep your own work separate
   from everyone else's, but you can easily find everyone else's repo if you need
-  help. Alternatively, you could make a separate repo for every assignment, or for
+  help. I was going to suggest that everyone name their repository after themselves,
+  but then github's random repository name generator suggested that I name mine
+  symmatrical-tribble, and all bets were off.
+  
+  Alternatively, you could make a separate repo for every assignment, or for
   specific goals, collaborations, etc. We have unlimited free public repositories,
   so go wild.
 

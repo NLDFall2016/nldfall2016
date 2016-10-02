@@ -22,12 +22,14 @@ The most intuitive structure would probably be for everyone to make their own
   help. I was going to suggest that everyone name their repository after themselves,
   but then github's random repository name generator suggested that I name mine
   symmatrical-tribble, and all bets were off.
-  
+
   Alternatively, you could make a separate repo for every assignment, or for
   specific goals, collaborations, etc. We have unlimited free public repositories,
   so go wild.
 
 This repository could serve as the "hub" for more general discussions, resources, etc.
+  For example, check out the [`matlab-help/`](https://github.com/NLDFall2016/nldfall2016/tree/master/matlab-help)
+  folder.
 
 ## Asking for help
 

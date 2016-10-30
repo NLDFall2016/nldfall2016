@@ -2,10 +2,10 @@ Organization for Introduction to Nonlinear Dynamics, fall 2016.
 
 Ideally, this will be a place to work together on homework, share modules, tips, etc.
 
-Note that the information in this document is not necessarily final. If you have
-  suggestions/objections, please voice them!
+The title of this file is a bit misleading—something like `SKIM-ME-FOR-THE-INFORMATION-YOU-NEED.md` 
+  might be more appropriate, but GitHub dosen't show files of that name by default.
 
-### New to Git/GitHub?
+## New to Git/GitHub?
 
 First, you will want to [install git](https://git-scm.com/download).
 
@@ -14,26 +14,15 @@ Then, you'll probably want to [learn the basics of Git and GitHub](http://blog.u
 If you have questions, Rachael (r.steiner@uconn.edu) should be able to help
   (others with git experience, please feel free to add yourselves).
 
-## Proposed structure
-
-The most intuitive structure would probably be for everyone to make their own
-  repository within the Organization. That way, you can keep your own work separate
-  from everyone else's, but you can easily find everyone else's repo if you need
-  help. I was going to suggest that everyone name their repository after themselves,
-  but then github's random repository name generator suggested that I name mine
-  symmatrical-tribble, and all bets were off.
-
-  Alternatively, you could make a separate repo for every assignment, or for
-  specific goals, collaborations, etc. We have unlimited free public repositories,
-  so go wild.
+### Proposed structure
 
 This repository could serve as the "hub" for more general discussions, resources, etc.
   For example, check out the [`matlab-help/`](https://github.com/NLDFall2016/nldfall2016/tree/master/matlab-help)
-  folder.
+  folder. Then everyone who chooses to can make a repo for their own assignments and things.
 
-## Asking for help
+### Asking for help
 
-If you want to request help from other members, you would probably want to open
+If you want to request help, you would probably want to open
   an issue. To open an issue, go to the repository in question, and click the
   "Issues" tab, next to the "Code" tab and under the repo's name.
 
@@ -41,7 +30,7 @@ If it is a general question directed at anyone, you may want to open the issue o
   this repository. If you have a question for a specific person, such as asking
   for help with a script they wrote, you can open an issue in their repository.
 
-## Offering help
+### Offering help
 
 The simplest way to offer help is to leave a comment on an issue. But sometimes,
   you'll want to edit code directly. For that, you will want to make a pull request.
@@ -53,30 +42,21 @@ A **pull request** is when you make changes to files in a repository and propose
 First, you'll need to **fork** the repository by clicking the "Fork" button in the
   upper right corner. Then, clone it to your computer with
 
-```{git}
+```sh
 git clone https://github.com/NLDFall2016/[repo-name].git
 ```
 
-Make a new **branch** for your changes: (assume "update" is the new branch name--
-  but you can call it whatever you want)
+Make a new **branch** for your changes: 
 
-```{git}
-git branch update
-git checkout update
+```sh
+git checkout -B [new-branch-name]
 ```
 
 Make your changes, commit and push them to your branch, and open a pull request (find the "Pull Requests" tab) in the original repository, explaining what you did. If the repository owner is satisfied with the changes, they will **merge** them into their repo. Otherwise, they might ask for more clarification or ask you to expand on it (of course, doing so is your choice).
 
-## Respect
-
-Please be nice. Also, respect each other's repositories. You will have write
-  permissions on most if not all repositories in this Organization. Please do not
-  abuse this by pushing changes or merging a pull request on someone else's repo
-  without their consent.
-
 ## Intellectual property
 
-**This may seem picky, but it's actually important.**
+**This may seem unnecessary, but it's actually important for protecting your work as well as avoiding copyright infringement.**
 
 Everything you post here is public. This has several important implications:
 
